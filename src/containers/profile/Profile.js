@@ -1,5 +1,5 @@
-import React, {useState, useEffect, lazy, Suspense} from "react";
-import {openSource} from "../../portfolio";
+import React, { useState, useEffect, lazy, Suspense } from "react";
+import { openSource } from "../../portfolio";
 import Contact from "../contact/Contact";
 import Loading from "../loading/Loading";
 
@@ -45,7 +45,8 @@ export default function Profile() {
   ) {
     return (
       <Suspense fallback={renderLoader()}>
-        <GithubProfileCard prof={prof} key={prof.id} />
+        <Contact />
+        {/* <GithubProfileCard prof={prof} key={prof.id} /> */}
       </Suspense>
     );
   } else {
