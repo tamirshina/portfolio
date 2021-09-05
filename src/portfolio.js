@@ -44,9 +44,10 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications"
     ),
-    emoji("⚡ Highly efficient API's and all the server side work an app needs"),
     emoji(
-      "⚡ have desktop experince with c# and JAVA devloping for windows")
+      "⚡ Highly efficient API's and all the server side work an app needs"
+    ),
+    emoji("⚡ have desktop experince with c# and JAVA devloping for windows")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -112,10 +113,7 @@ const educationInfo = {
       subHeader: "Full-Stack course for Academics",
       duration: "September 2016 - April 2017",
       desc: "Awesome movie app as a final project.",
-      descBullets: [
-        "JAVA devlopment",
-        "Front-end in Angular and kotlin"
-      ]
+      descBullets: ["JAVA devlopment", "Front-end in Angular and kotlin"]
     },
     {
       schoolName: "Tel - Aviv Academic College",
@@ -165,7 +163,6 @@ const workExperiences = {
         "Seven stand-alone environments showing data, mp4 and sounds.",
         "Programming an automated testing script for 3D objects(C#).",
         "Creating out of the box solutions for Webflow sites(JS)."
-
       ],
       color: "#90e7f5"
     },
@@ -180,7 +177,6 @@ const workExperiences = {
         "Establishing  a complex management module. ",
         "Adding new features and bug fixing on several environments.",
         "Changing web design with the creative department."
-
       ],
       color: "#5aa6fd"
     },
@@ -217,7 +213,8 @@ const bigProjects = {
     {
       image: require("./assets/images/advantge-preview.webp"),
       projectName: "Advantageonlineshopping",
-      projectDesc: "This is an E-comerce app I've been working on. Inside I devloped a managment console from scratch",
+      projectDesc:
+        "This is an E-comerce app I've been working on. Inside I devloped a managment console from scratch",
       footerLink: [
         {
           name: "Visit Website",
@@ -288,7 +285,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
