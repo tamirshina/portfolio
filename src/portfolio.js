@@ -14,7 +14,7 @@ const greeting = {
   username: "Tamir Shina",
   title: "Hi all, I'm Tamir Shina",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / JAVA / Reactjs / Nodejs / Kotlin and some other cool libraries and frameworks."
+    "A seasoned Full Stack Software Developer 🚀 I have experience of building Web and Mobile applications with JavaScript / JAVA / Reactjs / Nodejs / Kotlin and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1WexUHVSLo8vtHsShfK-kbIXsrTxazFrm/edit?usp=sharing&ouid=109073728975716287488&rtpof=true&sd=true",
@@ -45,9 +45,9 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications"
     ),
     emoji(
-      "⚡ Highly efficient API's and all the server side work an app needs"
+      "⚡ Build highly efficient API's and do all the server side work an app needs"
     ),
-    emoji("⚡ have desktop experince with c# and JAVA devloping for windows")
+    emoji("⚡ Also desktop app's I have experince with c# and JAVA devloping for windows")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -285,7 +285,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
