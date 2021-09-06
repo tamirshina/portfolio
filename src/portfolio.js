@@ -47,7 +47,9 @@ const skillsSection = {
     emoji(
       "⚡ Build highly efficient API's and do all the server side work an app needs"
     ),
-    emoji("⚡ Also desktop app's I have experince with c# and JAVA devloping for windows")
+    emoji(
+      "⚡ Also desktop app's I have experince with c# and JAVA devloping for windows"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -285,7 +287,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
