@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.76515d8c.chunk.css",
+    "main.css": "/portfolio/static/css/main.95ba1b27.chunk.css",
     "main.js": "/portfolio/static/js/main.592d7249.chunk.js",
     "main.js.map": "/portfolio/static/js/main.592d7249.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9e8d7d78.js",
@@ -14,11 +14,11 @@
     "static/js/4.22715ad6.chunk.js": "/portfolio/static/js/4.22715ad6.chunk.js",
     "static/js/4.22715ad6.chunk.js.map": "/portfolio/static/js/4.22715ad6.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.9bc8ce289649ca8302e60c53afdd2d55.js": "/portfolio/precache-manifest.9bc8ce289649ca8302e60c53afdd2d55.js",
+    "precache-manifest.3f4646ca042cf822b2f89d45d2a78579.js": "/portfolio/precache-manifest.3f4646ca042cf822b2f89d45d2a78579.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/3.cfae89f7.chunk.css.map": "/portfolio/static/css/3.cfae89f7.chunk.css.map",
     "static/css/4.46093bd1.chunk.css.map": "/portfolio/static/css/4.46093bd1.chunk.css.map",
-    "static/css/main.76515d8c.chunk.css.map": "/portfolio/static/css/main.76515d8c.chunk.css.map",
+    "static/css/main.95ba1b27.chunk.css.map": "/portfolio/static/css/main.95ba1b27.chunk.css.map",
     "static/js/2.19df99a1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.19df99a1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Micro_Focus-Logo.png": "/portfolio/static/media/Micro_Focus-Logo.da364a9f.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.9e8d7d78.js",
     "static/js/2.19df99a1.chunk.js",
-    "static/css/main.76515d8c.chunk.css",
+    "static/css/main.95ba1b27.chunk.css",
     "static/js/main.592d7249.chunk.js"
   ]
 }
