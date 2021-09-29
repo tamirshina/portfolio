@@ -15,13 +15,13 @@ import Education from "./education/Education";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
-import {StyleProvider} from "../contexts/StyleContext";
-import {useLocalStorage} from "../hooks/useLocalStorage";
+import { StyleProvider } from "../contexts/StyleContext";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 import "./Main.scss";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isDark, setIsDark] = useLocalStorage("isDark", true);
 
   const changeTheme = () => {
     setIsDark(!isDark);
@@ -29,7 +29,7 @@ const Main = () => {
 
   return (
     <div className={isDark ? "dark-mode" : null}>
-      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+      <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
         <Header />
         <Greeting />
         <Skills />
