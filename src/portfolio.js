@@ -214,7 +214,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/advantge-preview.webp"),
-      projectName: "Advantageonlineshopping",
+      projectName: "Advantage online shopping",
       projectDesc:
         "This is an E-comerce app I've been working on. Inside I devloped a managment console from scratch",
       footerLink: [
@@ -287,7 +287,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
