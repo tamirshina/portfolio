@@ -12,7 +12,7 @@ const illustration = {
 
 const greeting = {
   username: "Tamir Shina",
-  title: "Hi all, I'm Tamir Shina",
+  title: "Hi all, I'm Shina",
   subTitle: emoji(
     "A seasoned Full Stack Software Developer 🚀 I have experience of building Web and Mobile applications with JavaScript / JAVA / Reactjs / Nodejs / Kotlin and some other cool libraries and frameworks."
   ),
@@ -287,7 +287,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
